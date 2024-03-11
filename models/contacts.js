@@ -16,8 +16,10 @@ const contactSchema = new mongoose.Schema({
     },
     services: [{
         type: String,
-        required: [true, "Please select services"],
     }],
+    companyName: {
+        type: String,
+    },
     message:{
         type:String,
         required:[false]
