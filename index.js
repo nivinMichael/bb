@@ -24,7 +24,7 @@ app.use(cookieParser())
 
 // Enable CORS for specified origins
 const corsOptions = {
-    origin: ['http://localhost:4200', 'http://localhost:3000'],
+    origin: ['http://localhost:4200', 'http://localhost:3000','https://businessbureau.in'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
     optionsSuccessStatus: 204,
